@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847B610D1B4AA42900CB0158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B610C1B4AA42900CB0158 /* AppDelegate.swift */; };
+		847B610F1B4AA42900CB0158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B610E1B4AA42900CB0158 /* ViewController.swift */; };
+		847B61121B4AA42900CB0158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847B61101B4AA42900CB0158 /* Main.storyboard */; };
+		847B61141B4AA42900CB0158 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847B61131B4AA42900CB0158 /* Images.xcassets */; };
+		847B61171B4AA42900CB0158 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847B61151B4AA42900CB0158 /* LaunchScreen.xib */; };
+		847B61231B4AA42900CB0158 /* DrumSoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B61221B4AA42900CB0158 /* DrumSoloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847B611D1B4AA42900CB0158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847B60FF1B4AA42900CB0158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847B61061B4AA42900CB0158;
+			remoteInfo = DrumSolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847B61071B4AA42900CB0158 /* DrumSolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumSolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847B610B1B4AA42900CB0158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847B610C1B4AA42900CB0158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847B610E1B4AA42900CB0158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847B61111B4AA42900CB0158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847B61131B4AA42900CB0158 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		847B61161B4AA42900CB0158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		847B611C1B4AA42900CB0158 /* DrumSoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumSoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847B61211B4AA42900CB0158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847B61221B4AA42900CB0158 /* DrumSoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumSoloTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847B61041B4AA42900CB0158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847B61191B4AA42900CB0158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847B60FE1B4AA42900CB0158 = {
+			isa = PBXGroup;
+			children = (
+				847B61091B4AA42900CB0158 /* DrumSolo */,
+				847B611F1B4AA42900CB0158 /* DrumSoloTests */,
+				847B61081B4AA42900CB0158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847B61081B4AA42900CB0158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847B61071B4AA42900CB0158 /* DrumSolo.app */,
+				847B611C1B4AA42900CB0158 /* DrumSoloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847B61091B4AA42900CB0158 /* DrumSolo */ = {
+			isa = PBXGroup;
+			children = (
+				847B610C1B4AA42900CB0158 /* AppDelegate.swift */,
+				847B610E1B4AA42900CB0158 /* ViewController.swift */,
+				847B61101B4AA42900CB0158 /* Main.storyboard */,
+				847B61131B4AA42900CB0158 /* Images.xcassets */,
+				847B61151B4AA42900CB0158 /* LaunchScreen.xib */,
+				847B610A1B4AA42900CB0158 /* Supporting Files */,
+			);
+			path = DrumSolo;
+			sourceTree = "<group>";
+		};
+		847B610A1B4AA42900CB0158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847B610B1B4AA42900CB0158 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847B611F1B4AA42900CB0158 /* DrumSoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				847B61221B4AA42900CB0158 /* DrumSoloTests.swift */,
+				847B61201B4AA42900CB0158 /* Supporting Files */,
+			);
+			path = DrumSoloTests;
+			sourceTree = "<group>";
+		};
+		847B61201B4AA42900CB0158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847B61211B4AA42900CB0158 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847B61061B4AA42900CB0158 /* DrumSolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847B61261B4AA42900CB0158 /* Build configuration list for PBXNativeTarget "DrumSolo" */;
+			buildPhases = (
+				847B61031B4AA42900CB0158 /* Sources */,
+				847B61041B4AA42900CB0158 /* Frameworks */,
+				847B61051B4AA42900CB0158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrumSolo;
+			productName = DrumSolo;
+			productReference = 847B61071B4AA42900CB0158 /* DrumSolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847B611B1B4AA42900CB0158 /* DrumSoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847B61291B4AA42900CB0158 /* Build configuration list for PBXNativeTarget "DrumSoloTests" */;
+			buildPhases = (
+				847B61181B4AA42900CB0158 /* Sources */,
+				847B61191B4AA42900CB0158 /* Frameworks */,
+				847B611A1B4AA42900CB0158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847B611E1B4AA42900CB0158 /* PBXTargetDependency */,
+			);
+			name = DrumSoloTests;
+			productName = DrumSoloTests;
+			productReference = 847B611C1B4AA42900CB0158 /* DrumSoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847B60FF1B4AA42900CB0158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "David Frenkel";
+				TargetAttributes = {
+					847B61061B4AA42900CB0158 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					847B611B1B4AA42900CB0158 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 847B61061B4AA42900CB0158;
+					};
+				};
+			};
+			buildConfigurationList = 847B61021B4AA42900CB0158 /* Build configuration list for PBXProject "DrumSolo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847B60FE1B4AA42900CB0158;
+			productRefGroup = 847B61081B4AA42900CB0158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847B61061B4AA42900CB0158 /* DrumSolo */,
+				847B611B1B4AA42900CB0158 /* DrumSoloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847B61051B4AA42900CB0158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847B61121B4AA42900CB0158 /* Main.storyboard in Resources */,
+				847B61171B4AA42900CB0158 /* LaunchScreen.xib in Resources */,
+				847B61141B4AA42900CB0158 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847B611A1B4AA42900CB0158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847B61031B4AA42900CB0158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847B610F1B4AA42900CB0158 /* ViewController.swift in Sources */,
+				847B610D1B4AA42900CB0158 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847B61181B4AA42900CB0158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847B61231B4AA42900CB0158 /* DrumSoloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847B611E1B4AA42900CB0158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847B61061B4AA42900CB0158 /* DrumSolo */;
+			targetProxy = 847B611D1B4AA42900CB0158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847B61101B4AA42900CB0158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847B61111B4AA42900CB0158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847B61151B4AA42900CB0158 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847B61161B4AA42900CB0158 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847B61241B4AA42900CB0158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847B61251B4AA42900CB0158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847B61271B4AA42900CB0158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrumSolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847B61281B4AA42900CB0158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrumSolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847B612A1B4AA42900CB0158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrumSoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrumSolo.app/DrumSolo";
+			};
+			name = Debug;
+		};
+		847B612B1B4AA42900CB0158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrumSoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrumSolo.app/DrumSolo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847B61021B4AA42900CB0158 /* Build configuration list for PBXProject "DrumSolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847B61241B4AA42900CB0158 /* Debug */,
+				847B61251B4AA42900CB0158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847B61261B4AA42900CB0158 /* Build configuration list for PBXNativeTarget "DrumSolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847B61271B4AA42900CB0158 /* Debug */,
+				847B61281B4AA42900CB0158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847B61291B4AA42900CB0158 /* Build configuration list for PBXNativeTarget "DrumSoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847B612A1B4AA42900CB0158 /* Debug */,
+				847B612B1B4AA42900CB0158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847B60FF1B4AA42900CB0158 /* Project object */;
+}
