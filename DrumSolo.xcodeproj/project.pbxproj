@@ -13,6 +13,10 @@
 		847B61141B4AA42900CB0158 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847B61131B4AA42900CB0158 /* Images.xcassets */; };
 		847B61171B4AA42900CB0158 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847B61151B4AA42900CB0158 /* LaunchScreen.xib */; };
 		847B61231B4AA42900CB0158 /* DrumSoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B61221B4AA42900CB0158 /* DrumSoloTests.swift */; };
+		847B612D1B4AA49200CB0158 /* DrumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B612C1B4AA49200CB0158 /* DrumViewController.swift */; };
+		847B61311B4AA59400CB0158 /* effect3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847B612E1B4AA59400CB0158 /* effect3.mp3 */; };
+		847B61321B4AA59400CB0158 /* effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847B612F1B4AA59400CB0158 /* effect.mp3 */; };
+		847B61331B4AA59400CB0158 /* effect2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847B61301B4AA59400CB0158 /* effect2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		847B611C1B4AA42900CB0158 /* DrumSoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumSoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847B61211B4AA42900CB0158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847B61221B4AA42900CB0158 /* DrumSoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumSoloTests.swift; sourceTree = "<group>"; };
+		847B612C1B4AA49200CB0158 /* DrumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumViewController.swift; sourceTree = "<group>"; };
+		847B612E1B4AA59400CB0158 /* effect3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = effect3.mp3; sourceTree = "<group>"; };
+		847B612F1B4AA59400CB0158 /* effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = effect.mp3; sourceTree = "<group>"; };
+		847B61301B4AA59400CB0158 /* effect2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = effect2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,9 @@
 			children = (
 				847B610C1B4AA42900CB0158 /* AppDelegate.swift */,
 				847B610E1B4AA42900CB0158 /* ViewController.swift */,
+				847B612C1B4AA49200CB0158 /* DrumViewController.swift */,
 				847B61101B4AA42900CB0158 /* Main.storyboard */,
+				847B61341B4AA59800CB0158 /* Sounds */,
 				847B61131B4AA42900CB0158 /* Images.xcassets */,
 				847B61151B4AA42900CB0158 /* LaunchScreen.xib */,
 				847B610A1B4AA42900CB0158 /* Supporting Files */,
@@ -110,6 +120,16 @@
 				847B61211B4AA42900CB0158 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847B61341B4AA59800CB0158 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				847B612E1B4AA59400CB0158 /* effect3.mp3 */,
+				847B612F1B4AA59400CB0158 /* effect.mp3 */,
+				847B61301B4AA59400CB0158 /* effect2.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				847B61121B4AA42900CB0158 /* Main.storyboard in Resources */,
+				847B61311B4AA59400CB0158 /* effect3.mp3 in Resources */,
+				847B61331B4AA59400CB0158 /* effect2.mp3 in Resources */,
+				847B61321B4AA59400CB0158 /* effect.mp3 in Resources */,
 				847B61171B4AA42900CB0158 /* LaunchScreen.xib in Resources */,
 				847B61141B4AA42900CB0158 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B612D1B4AA49200CB0158 /* DrumViewController.swift in Sources */,
 				847B610F1B4AA42900CB0158 /* ViewController.swift in Sources */,
 				847B610D1B4AA42900CB0158 /* AppDelegate.swift in Sources */,
 			);
