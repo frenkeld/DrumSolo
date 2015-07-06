@@ -6,3 +6,7 @@ To use, load app on phone (not simulator), place on table, press start and start
 3 sounds preloaded from Garageband.
 
 If id does not register a hit or registeres too many hits adjust numbers in DrumViewController.swift in 
+
+func startDrumming()
+
+Plannning to add auto set-up functionality soon.
